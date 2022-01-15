@@ -31,8 +31,6 @@ int main(int argc, char* argv[])
   double* distance(double*, double*, int,int,int,double*,double*,double*,double*,double*,double*);
   void knn(double*);
   double* Transpose(double*,int*,int*);
-  double* MergeSort(double*, int);
-  void Merge(double*, int, int);
   void floyd_warshall(double*,int);
   bool connected(int, int, int*);
   int find(int,int*);
